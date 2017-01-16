@@ -1,0 +1,191 @@
+//SIRAM_LPFMTS version 15
+
+AD; lnnnn
+AD; l nnnn
+
+BE; 1 lll nnn
+BE; lll nnn
+BE; nnn lll
+
+BR; lll nnnn
+
+CL; ll nn nn
+CL; ll ll nn
+
+CO; lll nnn
+CO; ll nnnn
+//Formatos de moto: comentados por defecto.
+//CO; lll nnl
+//CO; lll nn
+
+CR; CLnnnnnn
+CR; lll nnn
+//CR; l nnn
+//CR; l nnnn
+//CR; l nnnnn
+//CR; ll nnn
+//CR; ll nnnn
+//CR; ll nnnnn
+//CR; lll nnn
+//CR; lll nnnn
+//CR; lll nnnnn
+
+// Formatos de camión
+CR; Cnnnnnn
+CR; Cnnnnn
+CR; C nnnnnn
+CR; C nnnnn
+CR; S nnnnn
+CR; S nnnn
+
+// Otros formatos
+CR; nnnnnn
+CR; nnnnn
+CR; nnnn
+CR; nnn
+
+DE; l ll nnnn
+DE; ll ll nnnn
+DE; ll ll nnn
+DE; ll ll nn
+DE; ll nnnn
+
+EC; lll nnn
+EC; lll nnnn
+
+ES; nnnn lll
+ES; l nnnn l
+ES; l nnnn ll
+ES; ll nnnn l
+ES; ll nnnn ll
+
+FR; nnnn ll nn
+FR; nnn lll nn
+FR; nnn ll nn
+FR; nn lll nn
+FR; ll nnn ll
+
+GB; llnn lll
+GB; lnnn lll
+GB; ln lll
+GB; ll lll
+GB; lllll
+GB; lnn lll
+GB; lnn l
+
+GI; G n
+GI; G nn
+GI; G nnn
+GI; G nnnn
+GI; G nnnnn
+GI; G nnnn l
+GI; G nnnnl
+//Este último, trick para 'G nnnn l'; para cuando disposiciones falla.
+
+GT; P nnnlll
+GT; C nnnlll
+GT; A nnnlll
+GT; M nnnlll
+GT; Pnnnlll
+GT; Cnnnlll
+GT; Annnlll
+GT; Mnnnlll
+GT; MI nnlll
+GT; TC nnlll
+GT; REnn nnn
+
+HN; Pnnnnnn
+HN; Pnnnnn
+HN; P nnnnn
+HN; P ll nnnn
+HN; Annnnn
+HN; A nnnn
+HN; A ll nnnn
+HN; R l nnnn
+
+HN; MI nnn
+HN; MI nnnn
+
+IT; ll nnn ll
+IT; ll nnnll
+
+IT; nlnnnn
+IT; nnnnnl
+
+LU; ll nnnn
+LU; nnnnn
+
+MX; nn nn lll
+//MX; ln nn lll
+MX; nnn ll n
+MX; nnn lll
+MX; ln nn lll
+MX; ll nn nnn
+MX; lll nn nn
+MX; lll nnl
+MX; llll nnn
+
+NI; M nnn nnn
+NI; nnn nnn
+NI; ll nnnnn
+
+NL; nn ll ll
+NL; ll nn ll
+
+PA; nnnnnn
+
+PE; ll nnnn
+PE; ln nnnn
+PE; lll nnn
+PE; lln nnn
+PE; lnl nnn
+PE; lnn nnn
+//PE; lll nnn
+//PE; lnl nnn
+//PE; nnnnn l
+//PE; nnn nnn
+//PE; ln nnnn
+//PE; ll nnnn
+
+PT; nn ll nn
+PT; nn nn ll
+
+// Coches
+SV; CD n nnn
+SV; CD nnn
+SV; M nnnnn
+SV; MI n nnn
+
+SV; A nn nnn
+SV; N nn nnn
+SV; N n nnn
+SV; P nn nnn
+SV; P n nnn
+SV; Pnnn nnn
+
+// Camiones
+SV; Cnnn nnn
+SV; C nn nnn
+SV; REnn nnn
+SV; RE n nnn
+
+// Camiones (invertidas)
+SV; ABnn nnn
+
+US-CA; nlllnnn
+US-CA; nlnnnnn
+US-CA; lllnnn
+US-CA; lll nnn
+US-CA; lllnnnn
+US-CA; lll nnnn
+US-CA; nnn lll
+US-CA; nllnnnn
+US-CA; nnn ll n
+US-CA; nnnnnln
+US-CA; lllllll
+US-CA; lllllln
+US-CA; nll lln
+
+VE; llnnnll
+VE; lll nnl
+VE; nnn nnn
